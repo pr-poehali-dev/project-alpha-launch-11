@@ -70,11 +70,24 @@ export default function HeroSection() {
             >
               <div className="space-y-4">
                 <p className="text-3xl font-light text-white md:text-4xl lg:text-5xl">
-                  Алексей Иванов
+                  Модератор сайтов
                 </p>
                 <p className="text-xl font-light text-white/80 md:text-2xl">
-                  Креативный директор | Дизайнер
+                  HTML · CSS · Контент-менеджмент · Поддержка сайтов
                 </p>
+                <p className="text-base font-light text-white/60 md:text-lg max-w-md leading-relaxed">
+                  Слежу за порядком на сайтах: обновляю контент, верстаю страницы, исправляю ошибки. Быстро, аккуратно, без лишних вопросов.
+                </p>
+                <div className="pt-2">
+                  <a
+                    href="https://t.me/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block bg-white text-black px-8 py-3 text-sm font-medium tracking-widest uppercase transition-all hover:bg-white/90 hover:scale-105"
+                  >
+                    Написать мне
+                  </a>
+                </div>
                 <div className="flex gap-6 pt-4">
                   <a
                     href="https://t.me/"
